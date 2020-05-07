@@ -105,8 +105,8 @@ def get_image_position():
     if jso['success']:
         validate = jso['validate']
         payload = {
-            "username": "17600696038",
-            "password": "772781",
+            "username": "",  # 账号
+            "password": "",  # 密码
             "validate": validate,
             "id": deviceId['value']
         }
